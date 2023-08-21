@@ -4,3 +4,69 @@
   box-sizing: border-box;
 }
 
+/* DEBUG--------------------------------------*/
+
+.debug1 {
+  background-color: rgba(255, 0, 0, 0.57);
+  border: 1px solid black;
+}
+
+.debug2 {
+  background-color: rgba(0, 0, 255, 0.644);
+  border: 1px solid black;
+}
+/* ------------------------------------------- */
+
+/* GENERAL------------------------------------ */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* ------------------------------------------- */
+
+
+/* ooooooooooooo MOBILE oooooooooooooooooooooooooooooooooo */
+
+
+
+/* --------------------------HEADER----------------------- */
+
+header .container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: none;
+  list-style: none;
+}
+/* ------------------------------------------------------- */
+
+/* --------------------------MAIN------------------------- */
+
+/* section1 */
+
+/* -------- */
+
+/* HEADER------------------------------------- */
+/* ooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* ooooooooooooo DESKTOP ooooooooooooooooooooooooooooooooo */
+
+@media screen and (min-width: 1200px) {
+
+/* HEADER------------------------------------- */
+header ul {
+  display: flex;
+}
+header ul li {
+  padding-left: 20px;
+}
+.right-menu {
+  display: none;
+}
+/* ------------------------------------------- */
+}
