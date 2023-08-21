@@ -16,12 +16,40 @@
   border: 1px solid black;
 }
 
+.img-placeholder2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: chartreuse;
+}
+
 .img-placeholder {
   height: 50%;
   width: 50%;
   border: 1px solid black;
   background-color: chartreuse;
 }
+
+.fontawesome {
+  border: 1px solid black;
+  background-color: aquamarine;
+  height: 50px;
+  width: 50px;
+}
+
+.planning {
+  background-color: grey;
+  padding: 40px 0;
+}
+.planning .img-placeholder2 {
+  margin-top: 30px;
+}
+.planning .right,
+.planning .left {
+  padding-bottom: 20px;
+}
+
+
 /* ------------------------------------------- */
 
 /* GENERAL------------------------------------ */
@@ -29,6 +57,25 @@
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+
+.planning {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.planning .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planning .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* ------------------------------------------- */
 
@@ -61,7 +108,7 @@ header ul {
 /* --------------------------MAIN------------------------- */
 
 /* section1 */
-.card {
+.demo .card {
   width: 100%;
   height: 350px;
   margin: 50px 0;
@@ -73,12 +120,20 @@ header ul {
 
 
 /* -------- */
+/* section2 */
+
+
+/* -------- */
 
 /* ------------------------------------------------------- */
 
 
 
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+
+
+
 
 
 
@@ -97,22 +152,27 @@ header ul {
   flex-wrap: wrap;
   
 }
-.big.card {
+.demo .big.card {
   align-items: baseline;
   width: calc(((100% / 3) * 2) - 20px );
 }
 
 
-.small.card {
+.demo .small.card {
   width: calc((100% / 3) - 20px);
 
 }
 
-.card:first-child,
-.card:nth-child(3),
-.card:nth-child(4) {
+.demo .card:first-child,
+.demo .card:nth-child(3),
+.demo .card:nth-child(4) {
   margin-right: 20px;
 }
+/* -------- */
+/* section2 */
+
+
+
 /* -------- */
 
 /* ------------------------------------------- */
@@ -148,14 +208,29 @@ header ul li {
 
 /* MAIN--------------------------------------- */
 /* section1 */
-.big.card {
+.demo .big.card {
   flex-direction: row;
   
 }
 
-.left {
+.demo .left {
   width: 50%;
 }
+/* -------- */
+
+/* section2 */
+
+.planning {
+  flex-direction: row;
+}
+
+.planning .left,
+.planning .right {
+  width: 50%;
+}
+
+
+
 /* -------- */
 
 /* ------------------------------------------- */
