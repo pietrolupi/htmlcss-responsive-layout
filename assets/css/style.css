@@ -81,18 +81,53 @@ header ul {
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 
 
+
+
+
+
 /* ooooooooooooo TABLET oooooooooooooooooooooooooooooooooo */
 
 @media screen and (min-width: 768px) {
 
+/* MAIN--------------------------------------- */
+/* section1 */
+
+.demo.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
 .big.card {
   align-items: baseline;
+  width: calc(((100% / 3) * 2) - 20px );
 }
+
+
+.small.card {
+  width: calc((100% / 3) - 20px);
+
+}
+
+.card:first-child,
+.card:nth-child(3),
+.card:nth-child(4) {
+  margin-right: 20px;
+}
+/* -------- */
+
+/* ------------------------------------------- */
 
 }
 
 
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+
+
+
+
+
+
 
 
 /* ooooooooooooo DESKTOP ooooooooooooooooooooooooooooooooo */
@@ -109,5 +144,19 @@ header ul li {
 .right-menu {
   display: none;
 }
+/* ------------------------------------------- */
+
+/* MAIN--------------------------------------- */
+/* section1 */
+.big.card {
+  flex-direction: row;
+  
+}
+
+.left {
+  width: 50%;
+}
+/* -------- */
+
 /* ------------------------------------------- */
 }
