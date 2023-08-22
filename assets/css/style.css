@@ -74,8 +74,16 @@
 
 footer {
   padding: 30px 0;
-  background-color: darkslategray;
+  background-color: #333333;
   color: white;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #9792e4;
+}
+
+footer p:first-child {
+  padding: 30px 0 60px 0;
 }
 /* ------------------------------------------- */
 
@@ -183,8 +191,30 @@ img {
 .get-started {
   text-align: center;
 }
-.get-started span {
+.get-started .container>a {
+
+  color: #9792e4;
+  background-color: white;
+  padding: 20px 60px;
+  margin: 20px 0;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.1rem ;
+  font-weight: bold;
+}
+.get-started .container>a>span {
+  margin-left: 15px;
+} 
+.get-started p {
+  margin-bottom: 50px;
+}
+.get-started .container>span {
   display: block;
+  padding: 60px 0 0 0;
+}
+
+.get-started .container>span>a {
+  color: white;
 }
 
 footer>.container {
@@ -421,9 +451,32 @@ header a.btn {
   font-size: 3.5rem;
   right: 0;
   top: 0;
-
 }
 
+.get-started {
+  background-color: #9792e4;
+  color: white;
+}
+
+.get-started h5 {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.get-started h3 {
+  font-size: 2rem;
+  padding: 20px 0 30px 0;
+}
+
+.get-started h2 {
+  color: #fdc15f;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+}
+
+.get-started p {
+  line-height: 1.8rem;
+}
 
 
 
@@ -590,11 +643,25 @@ header ul {
 
 /* section6 */
 
-.get-started {
+.get-started>.container {
   max-width: 600px ;
 }
+.get-started h3 {
+  font-size: 3rem;
+}
+.get-started h2 {
+  font-size: 6rem;
+}
+.get-started p {
+  padding: 0 90px;
+}
 
+.get-started .container>a {
+  font-size: 1.2rem;
+  padding: 30px 60px;
+}
 /* -------- */
+
 
 
 /* ------------------------------------------- */
